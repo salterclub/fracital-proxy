@@ -21,10 +21,10 @@ document.getElementById('clig').addEventListener("click", () => {
 });
 
 function patr() {
-    window.open('https://www.patreon.com/fracital?fan_landing=true');
+    window.open('https://www.youtube.com/watch?v=RvVdFXOFcjw');
 }
 function tik() {
-    window.open('https://tiktok.com/@fracital');
+    window.open('https://tiktok.com/@nintehnn');
 }
 
 // if (localStorage.getItem("theme") === "lime") {

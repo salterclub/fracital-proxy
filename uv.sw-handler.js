@@ -1,10 +1,13 @@
-importScripts('/uv/uv.sw.js');
-//importScripts('https://arc.io/arc-sw-core.js')
+importScripts('./uv/uv.sw.js');
 
 const sw = new UVServiceWorker();
 
-self.addEventListener('fetch', event =>
+sw.on('request', event => {
+
+})
+
+self.addEventListener('fetch', event => {
     event.respondWith(
         sw.fetch(event)
     )
-);
+});
